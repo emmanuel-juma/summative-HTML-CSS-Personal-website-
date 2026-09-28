@@ -1,0 +1,118 @@
+/*
+============
+Body-section
+============
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e6acac;
+    color: #000000;
+}
+/*
+==============
+Header styles
+==============
+
+*/
+header {
+    background-color: #360342;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+
+header p {
+    margin-bottom: 20px;
+}
+/*
+============
+Navbar
+=============
+*/
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    color:  #57036a;
+}
+
+/*
+============================
+CSS Grid layout for projects 
+=============================
+*/
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.project-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #360342;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*
+====================
+Responsive layout 
+=====================
+*/
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+}
