@@ -1,87 +1,158 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Emmanuel Juma - Personal Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!--
     ==================
-    The Header Section
+    Header Section
     ==================
     -->
+
     <header>
         <h1>Emmanuel Juma</h1>
+
         <p>Software Engineer</p>
+
+        <p>
+            <a href="https://github.com/emmanuel-juma" target="_blank">
+                Visit my GitHub
+            </a>
+        </p>
 
         <nav>
             <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>        
         </nav>
     </header>
 
+
     <main>
+
         <!--
-        =====================
-        The About me section
-        =====================
+        ==================
+        About Me Section
+        ==================
         -->
+
         <section id="about">
+
             <h2>About Me</h2>
+
             <p>
                 My name is Emmanuel Juma. I am a software engineer
-                interested in web development and technology.
-                I enjoy building useful applications and learning new
+                interested in web development and technology. I enjoy
+                building useful applications and learning new
                 programming skills.
             </p>
+
         </section>
+
+
+        <!--
+        ==================
+        Skills Section
+        ==================
+        -->
+
+        <section id="skills">
+
+            <h2>My Skills</h2>
+
+            <p>
+                I have learned and worked with several programming
+                languages and web development technologies.
+            </p>
+
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Git and GitHub</li>
+            </ul>
+
+        </section>
+
+
+        <!--
+        ==================
+        Projects Section
+        ==================
+        -->
 
         <section id="projects">
 
-            <!--
-            ====================
-            The projects section
-            ====================
-            
-            -->
             <h2>My Projects</h2>
 
             <div class="project-grid">
-                <article class="project-card">
-                    <h3>Portfolio Website</h3>
-                    <p>
-                        A personal website created using HTML and CSS
-                        to showcase my skills and projects.
-                    </p>
-                </article>
+
+                <!-- Calculator Project -->
 
                 <article class="project-card">
+
+                    <h3>Cruise Control</h3>
+
+                    <img
+                        src="assets/cars.jpg"
+                        alt="Cruise Control">
+
+                    <p>
+                        This is a platform where dealers can showcase vehicles to potential clients, displaying their specs, asking price, location and who to contact incase of interest. 
+                    </p>
+
+                </article>
+
+
+                <!-- Additional Project -->
+
+                <article class="project-card">
+
                     <h3>GymOS</h3>
+
+                    <img
+                        src="assets/gymos1.jpg"
+                        alt="GymOS project">
+
                     <p>
-                        A gym management system designed to help gyms
-                        manage members, subscriptions, and operations.
+                        GymOS is a gym management system designed to
+                        help gyms manage members, subscriptions,
+                        and daily operations.
                     </p>
+
                 </article>
 
-                <article class="project-card">
-                    <h3>Car Marketplace</h3>
-                    <p>
-                        A platform concept for connecting car sellers
-                        with potential buyers.
-                    </p>
-                </article>
             </div>
+
         </section>
+
     </main>
 
+
+    <!--
+    ==================
+    Footer Section
+    ==================
+    -->
+
     <footer>
-        <p>&copy; 2026 Emmanuel Juma. All rights reserved.</p>
+
+        <p>
+            &copy; 2026 Emmanuel Juma. All rights reserved.
+        </p>
+
     </footer>
 
 </body>
+
 </html>
+
